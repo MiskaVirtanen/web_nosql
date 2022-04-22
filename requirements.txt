@@ -1,0 +1,4 @@
+flask
+pymongo[srv]==3.12.1
+passlib
+flask-jwt-extended
