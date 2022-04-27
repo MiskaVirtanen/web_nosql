@@ -11,9 +11,8 @@ from errors.not_found import NotFound
 
 # tätä voi käyttää, jos on paikallinen mongodb-palvelin asennettuna
 # mongodb://localhost:27017/
-print(Config.CONNECT_STR)
-client = pymongo.MongoClient(Config.CONNECT_STR, 
-server_api=ServerApi('1'))
+client = pymongo.MongoClient("mongodb+srv://miskavirtanen:atikV123@miskavirtanen.kbont.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+server_api=ServerApi('1')
 # db nimi voi olla muukin kuin group1
 db = client.group1
 
