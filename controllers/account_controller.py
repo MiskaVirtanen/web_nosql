@@ -13,7 +13,7 @@ class AccountRouteHandler(MethodView):
     @jwt_required()
     def patch(self):
          pass
-        # TODO usernamen päivitys, tee erillinen dekoraattori tämän tarkistukseen  
+        # TODO
 
 
 class AccountHandler2(MethodView):

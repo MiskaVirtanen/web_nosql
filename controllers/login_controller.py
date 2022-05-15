@@ -4,12 +4,8 @@ from flask_jwt_extended import create_access_token
 from errors.not_found import NotFound
 from flask.views import MethodView
 from flask_jwt_extended import jwt_required
-
 from models import User
 
-
-
-# /api/login
 
 
 def login_route_handler():
